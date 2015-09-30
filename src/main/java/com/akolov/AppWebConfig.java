@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @Configuration
 @ComponentScan({"com.akolov"})
-public class SpringWebConfig extends WebMvcConfigurerAdapter {
+public class AppWebConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {

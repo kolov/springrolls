@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @ComponentScan({"com.akolov"})
-public class SpringRootConfig extends WebMvcConfigurerAdapter {
+public class AppRootConfig extends WebMvcConfigurerAdapter {
 
 
 }

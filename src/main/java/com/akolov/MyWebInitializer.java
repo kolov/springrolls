@@ -9,12 +9,12 @@ public class MyWebInitializer extends
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[] { SpringRootConfig.class };
+        return new Class[] { AppRootConfig.class };
     }
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[] { SpringWebConfig.class };
+        return new Class[] { AppWebConfig.class };
     }
 
     @Override
